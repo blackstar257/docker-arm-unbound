@@ -1,4 +1,5 @@
 # rpi-unbound
 
-[![Docker Stars](https://img.shields.io/docker/stars/blackstar257/rpi-unbound.svg?maxAge=2592000)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/blackstar257/rpi-unbound.svg?maxAge=2592000)]()
+```sh
+docker run -it -p 53:53/udp quay.io/blackstar257/rpi-unbound:latest
+```
